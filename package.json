@@ -1,0 +1,35 @@
+{
+  "name": "fiscal-integration-uz",
+  "description": "FiscalIntegrationUz is a powerful tool for developers, providing an easy integration of Uzbekistan's fiscal system into your applications. This plugin offers a simple and efficient way to work with the fiscalization of receipts, meeting all the requirements of Uzbekistan's tax system.",
+  "version": "0.0.1",
+  "homepage": "https://thebetacompany.uz/projects/fiscal-integration-uz",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/thebetacompany/fiscal-integration-uz/issues",
+    "email": "contact@thebetacompany.uz"
+  },
+  "author": {
+    "name": "The Beta Company",
+    "url": "https://github.com/thebetacompany",
+    "email": "contact@thebetacompany.uz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thebetacompany/fiscal-integration-uz.git"
+  },
+  "engines": {
+    "node": ">=16.19.0",
+    "npm": ">=8.19.3"
+  },
+  "keywords": [
+    "ofd-uzbekistan",
+    "uzbekistan-fiscalization",
+    "marketplace-qr-code",
+    "fiscal-qr-code",
+    "tasnif-ofd"
+  ]
+}
