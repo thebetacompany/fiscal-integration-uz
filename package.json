@@ -4,9 +4,15 @@
   "version": "0.0.1",
   "homepage": "https://thebetacompany.uz/projects/fiscal-integration-uz",
   "license": "MIT",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup",
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/thebetacompany/fiscal-integration-uz/issues",
@@ -31,5 +37,16 @@
     "marketplace-qr-code",
     "fiscal-qr-code",
     "tasnif-ofd"
-  ]
+  ],
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
 }

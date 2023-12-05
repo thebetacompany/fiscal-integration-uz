@@ -11,12 +11,14 @@
 
 # production
 /build
+/dist
 /database_backups
 /logs
 log.txt
 
 # misc
 .DS_Store
+.vscode/
 /.env
 /.env.local
 /.env.development.local
@@ -24,6 +26,10 @@ log.txt
 /.env.production.local
 .idea
 features.html
+*.crt
+*.csr
+*.pem
+*.key
 
 npm-debug.log*
 yarn-debug.log*
