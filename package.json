@@ -1,7 +1,7 @@
 {
   "name": "fiscal-integration-uz",
   "description": "FiscalIntegrationUz is a powerful tool for developers, providing an easy integration of Uzbekistan's fiscal system into your applications. This plugin offers a simple and efficient way to work with the fiscalization of receipts, meeting all the requirements of Uzbekistan's tax system.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://thebetacompany.uz/projects/fiscal-integration-uz",
   "license": "MIT",
   "main": "./dist/index.js",

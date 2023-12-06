@@ -25,3 +25,11 @@ With FiscalIntegrationUz, your developers can seamlessly implement the fiscaliza
 For more information, visit [The Beta Company - Fiscal Integration UZ](https://thebetacompany.uz/projects/fiscal-integration-uz).
 
 [![The Beta Company](https://img.shields.io/badge/powered%20by-The%20Beta%20Company-blue)](https://thebetacompany.uz/projects/fiscal-integration-uz)
+
+## Versions
+
+### v1.0.0 <span style="color:gray; font-size: 12px">*[ 2023-12-06 ]*</span>.
+- **Added** configuration settings for FiscalIntegration
+- **Added** *Receipt data* structures
+- **Added** signing *Receipt data* using company certificate
+- **Added** sending signed *Receipt data* to Tax Office API 
