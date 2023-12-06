@@ -25,5 +25,3 @@ With FiscalIntegrationUz, your developers can seamlessly implement the fiscaliza
 For more information, visit [The Beta Company - Fiscal Integration UZ](https://thebetacompany.uz/projects/fiscal-integration-uz).
 
 [![The Beta Company](https://img.shields.io/badge/powered%20by-The%20Beta%20Company-blue)](https://thebetacompany.uz/projects/fiscal-integration-uz)
-
-openssl req -new -newkey rsa:2048 -nodes -keyout user-etp.key -out user-etp.csr -subj "/CN=TheBetaCompany/UID=uz.thebetacompany.app"

@@ -9,16 +9,17 @@
 # testing
 /coverage
 
-# production
-/build
+#production
 /dist
-/database_backups
+/build
+/lib
 /logs
 log.txt
+/log.txt
 
 # misc
 .DS_Store
-.vscode/
+/.vscode
 /.env
 /.env.local
 /.env.development.local
@@ -26,14 +27,11 @@ log.txt
 /.env.production.local
 .idea
 features.html
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+_db_data.js
 *.crt
 *.csr
 *.pem
 *.key
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-_db_data.js
-/log.txt

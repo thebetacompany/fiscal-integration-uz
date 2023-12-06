@@ -7,18 +7,17 @@
 .pnp.js
 
 # testing
+/tests
 /coverage
+jest.config.js
 
-# production
-/build
-/dist
-/database_backups
-/logs
-log.txt
+# development
+/src
+tsup.config.ts
 
 # misc
 .DS_Store
-.vscode/
+/.vscode
 /.env
 /.env.local
 /.env.development.local
@@ -26,10 +25,11 @@ log.txt
 /.env.production.local
 .idea
 features.html
-
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
 _db_data.js
-/log.txt
+*.crt
+*.csr
+*.pem
+*.key
